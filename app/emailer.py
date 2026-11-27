@@ -1,5 +1,5 @@
 """
-emailer.py - send the daily DR health-check report by SMTP.
+emailer.py - send the daily juniper health-check report by SMTP.
 
 Drop this in app/ and call send_report(devices) after the daily collection.
 Each device dict:
