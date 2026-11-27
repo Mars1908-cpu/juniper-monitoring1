@@ -4,7 +4,7 @@ emailer.py - send the daily DR health-check report by SMTP.
 Drop this in app/ and call send_report(devices) after the daily collection.
 Each device dict:
     {
-      "name": "MITS-DR-CORESW1", "ip": "172.31.0.4",
+      "name": "MITS-DR-QRSSW2", "ip": "172.31.0.7",
       "outputs": {                      # raw CLI text, same commands as your checklist
           "show system uptime": "...",
           "show chassis alarms": "...",
